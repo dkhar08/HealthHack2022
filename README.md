@@ -1,11 +1,7 @@
 # HealthHack2022
 My 1st place privater leaderboard solution for Health Data Hack 2022
 
-Competition data represents a set of different events which occurred with the patient.
-
-We had information about the patient's medical history, swabs,  different blood tests and etc.
-
-Every participant faced a poser: how to generate features for CT from scattered across the timeline events.
+Competition data represents a set of different events which occurred with the patient. We had information about the patient's medical history, swabs,  different blood tests and etc. Every participant faced a poser: how to generate features for CT from scattered across the timeline events.
 
 I chose the following tactics: most near information was most relevant. I adhered pattern for feature generation: information about the nearest event from a set of events + time to the event. I provided the model information about the 3 nearest events from the most important sets. I found that such kind of tactic worked well enough and exploited it till the end of the competition. 
 
